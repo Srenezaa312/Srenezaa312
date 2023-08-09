@@ -1,0 +1,163 @@
+.top-section {
+  color: #222222;
+  padding: 80px 0px;
+  min-height: calc(100vh - 775px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.top-section .heading-title {
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 1.1em;
+  text-align: left;
+}
+
+.top-section .heading-text {
+  text-align: left;
+  padding: 16px 0;
+}
+
+.width-limiter {
+  max-width: 1425px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (min-width: 768px) {
+  .top-section {
+    height: unset;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    max-width: 1425px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .top-section .heading-title {
+    font-size: 60px;
+  }
+}
+
+.map-view {
+  color: #222222;
+  padding: 80px;
+  min-height: calc(100vh - 600px);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  background: url(../images/contact/map.png);
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* padding-left: 216px; */
+}
+
+.location-details {
+  margin-top: 40px;
+}
+
+.location-details .detail {
+  flex: 1;
+  padding: 20px 0;
+}
+.location-details h5 {
+  font-weight: 500;
+}
+
+@media (min-width: 768px) {
+  .location-details {
+    display: flex;
+  }
+  .location-details .detail{
+    padding: 20px;
+  }
+}
+
+.contact-form {
+  margin-top: 60px;
+  margin-bottom: 40px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  border-color: #999999;
+  background-color: #ffffff;
+  color: #222222;
+  border: 0;
+  border-bottom: 1px solid #222;
+  padding: 10px 0;
+}
+
+.contact-form h1 {
+  font-size: 34px;
+  font-weight: 500;
+}
+
+.contact-form .form-field {
+  margin-top: 30px;
+}
+
+.contact-form form .message {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-form .address {
+  margin: 30px 0;
+  padding: 30px 30px 30px 30px;
+  background-color: #f9f9f9;
+  border-style: double;
+  border-width: 4px 4px 4px 4px;
+  border-color: #999999;
+  height: fit-content;
+}
+
+.contact-form form .checkbox {
+  display: flex;
+  gap: 12px;
+}
+
+.contact-form form .checkbox > * {
+  display: inline-block;
+}
+.contact-form form .checkbox input {
+  width: auto;
+}
+.contact-form form button {
+  margin-top: 40px;
+  background-color: #0f172b;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 12px 40px;
+}
+
+@media (min-width: 768px) {
+  .contact-form {
+    display: flex;
+  }
+  .contact-form form {
+    flex-basis: 70%;
+  }
+  .contact-form .address {
+    flex-basis: 30%;
+    margin: 30px;
+  }
+}
+
+.address {
+  text-align: center;
+}
+
+strong {
+  font-weight: 500;
+}
+
+.address p {
+  margin-bottom: 20px;
+}
