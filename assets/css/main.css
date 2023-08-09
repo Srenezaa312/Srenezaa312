@@ -1,0 +1,185 @@
+@import "https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500&display=swap";
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+body {
+  font-family: "Jost", sans-serif;
+}
+
+.full-width {
+  margin-left: -30px;
+  margin-right: -30px;
+}
+
+.main-container {
+  padding-top: 100px;
+}
+
+.navigation {
+  display: flex;
+  padding: 4px 30px;
+  position: fixed;
+  top: 0;
+  background: white;
+  width: 100%;
+  z-index: 1050;
+}
+
+.navigation .logo img {
+  width: 90px;
+}
+
+.navigation nav {
+  padding: 35px 0;
+  padding-left: 35px;
+}
+
+.navigation nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #222222;
+  font-size: 14px;
+}
+
+.navigation nav a.active {
+  border-bottom: 1px solid;
+}
+
+.page-container {
+  padding: 0 30px;
+}
+
+footer {
+  padding: 0 30px;
+  padding-top: 40px;
+}
+
+footer .book-apartment,
+footer .about {
+  margin-bottom: 40px;
+}
+footer .book-apartment h2,
+footer .about h2 {
+  margin: 10px 0;
+  font-weight: 600;
+  font-size: 12px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+footer .about .logo {
+  padding: 10px 0;
+  padding-bottom: 25px;
+  text-align: center;
+}
+
+footer .about .logo img {
+  width: 120px;
+}
+
+footer .about p {
+  font-size: 26px;
+  font-weight: 500;
+  text-align: center;
+}
+
+footer .book-apartment .content p {
+  font-size: 15px;
+  font-weight: 400;
+  text-align: center;
+}
+
+footer .book-apartment .content .link {
+  text-align: center;
+  margin-top: 40px;
+}
+
+footer .book-apartment .content .link a {
+  background-color: #0f172b;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 12px 40px;
+}
+
+footer .footer-nav {
+  font-size: 12px;
+  font-weight: 400;
+  border-top: 1px solid #e7e7e7;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  clear: both;
+  -webkit-font-smoothing: antialiased;
+}
+
+footer .footer-nav nav {
+  text-align: center;
+}
+footer .footer-nav nav a {
+  text-decoration: none;
+}
+footer .footer-nav nav a:not(:first-child) {
+  margin-left: 20px;
+  color: #222222;
+}
+
+footer .copyright {
+  text-align: center;
+  padding: 0 30px 0 30px;
+}
+
+footer .copyright p {
+  font-size: 12px;
+  color: #222222;
+  font-weight: 400;
+}
+
+@media (min-width: 768px) {
+  .navigation {
+    padding: 4px 100px;
+  }
+  .upper-footer {
+    display: flex;
+    padding: 30px 0px;
+  }
+
+  footer {
+    max-width: 1425px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  footer .book-apartment,
+  footer .about {
+    flex: 1;
+  }
+
+  footer .book-apartment > *,
+  footer .book-apartment > .content > *,
+  footer .about > * {
+    text-align: left !important;
+  }
+
+  footer .about {
+    display: flex;
+    flex-direction: column;
+  }
+
+  footer .about .logo-wrapper {
+    display: flex;
+    gap: 20px;
+  }
+  footer .about .logo-wrapper p {
+    text-align: left !important;
+    font-size: 22px;
+    padding-right: 80px;
+  }
+}
