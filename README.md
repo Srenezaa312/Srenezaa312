@@ -1,4 +1,5 @@
 wnr20230627
+WNR project received 20230820
 
 Neighborhood/Explore Page (explore.html): The "Explore" or "Neighborhood" page is dedicated to showcasing the surrounding area and attractions near the hotel. It includes a heading introducing Toronto and its highlights. The content emphasizes the convenience of the hotel's location and provides reasons why visitors should choose this property for their stay. The page also features images and descriptions of downtown Toronto and its landmarks.
 
